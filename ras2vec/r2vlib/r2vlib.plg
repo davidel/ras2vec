@@ -1,0 +1,39 @@
+--------------------Configuration: r2vlib - Win32 Release--------------------
+Begining build with project "D:\projects\ras2vec\ras2vec\r2vlib\r2vlib.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /Zp1 /ML /W3 /GX /O2 /I "D:\projects\ras2vec\include" /I "D:\projects\ras2vec\sources\include" /D "NDEBUG" /D "_WINDOWS" /D "WIN32" /D "_CONSOLE" /Fp".\Release/r2vlib.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o".\Release/r2vlib.bsc" "
+			"Library Manager" with flags "/nologo /out:".\Release\r2vlib.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSPFB.tmp" with contents </nologo /Zp1 /ML /W3 /GX /O2 /I "D:\projects\ras2vec\include" /I "D:\projects\ras2vec\sources\include" /D "NDEBUG" /D "_WINDOWS" /D "WIN32" /D "_CONSOLE" /Fp".\Release/r2vlib.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\projects\ras2vec\sources\ras2vec\bmputil.c"
+"D:\projects\ras2vec\sources\ras2vec\filescan.c"
+"D:\projects\ras2vec\sources\ras2vec\flushpoly.c"
+"D:\projects\ras2vec\sources\ras2vec\himage.c"
+"D:\projects\ras2vec\sources\ras2vec\log.c"
+"D:\projects\ras2vec\sources\ras2vec\thinner.c"
+"D:\projects\ras2vec\sources\ras2vec\tree.c"
+"D:\projects\ras2vec\sources\ras2vec\util.c"
+"D:\projects\ras2vec\sources\ras2vec\vectorize.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSPFB.tmp" 
+Creating command line "link.exe -lib /nologo /out:".\Release\r2vlib.lib"  .\Release\bmputil.obj .\Release\filescan.obj .\Release\flushpoly.obj .\Release\himage.obj .\Release\log.obj .\Release\thinner.obj .\Release\tree.obj .\Release\util.obj .\Release\vectorize.obj" 
+Compiling...
+bmputil.c
+filescan.c
+flushpoly.c
+himage.c
+log.c
+thinner.c
+tree.c
+util.c
+vectorize.c
+Creating library...
+
+
+
+r2vlib.lib - 0 error(s), 0 warning(s)

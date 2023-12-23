@@ -1,0 +1,91 @@
+--------------------Configuration: dbll_list - Win32 Release--------------------
+Begining build with project "D:\projects\ras2vec\ras2vec\dbll_list\dbll_list.dsp", at root.
+Active configuration is Win32 (x86) Static Library (based on Win32 (x86) Static Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /Zp1 /ML /W3 /GX /O2 /I "D:\projects\ras2vec\include" /I "D:\projects\ras2vec\sources\include" /D "NDEBUG" /D "_WINDOWS" /D "WIN32" /D "_CONSOLE" /Fp".\Release/dbll_list.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"Browser Database Maker" with flags "/nologo /o".\Release/dbll_list.bsc" "
+			"Library Manager" with flags "/nologo /out:".\Release\dbll_list.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP12D.tmp" with contents </nologo /Zp1 /ML /W3 /GX /O2 /I "D:\projects\ras2vec\include" /I "D:\projects\ras2vec\sources\include" /D "NDEBUG" /D "_WINDOWS" /D "WIN32" /D "_CONSOLE" /Fp".\Release/dbll_list.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\projects\ras2vec\sources\dbll_list\Lladd.c"
+"D:\projects\ras2vec\sources\dbll_list\Llappnd.c"
+"D:\projects\ras2vec\sources\dbll_list\Llchdata.c"
+"D:\projects\ras2vec\sources\dbll_list\Llclear.c"
+"D:\projects\ras2vec\sources\dbll_list\Llcreate.c"
+"D:\projects\ras2vec\sources\dbll_list\Llcrfill.c"
+"D:\projects\ras2vec\sources\dbll_list\Lldelete.c"
+"D:\projects\ras2vec\sources\dbll_list\Lldesf.c"
+"D:\projects\ras2vec\sources\dbll_list\Llempty.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgcnt.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgdata.c"
+"D:\projects\ras2vec\sources\dbll_list\Llget.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgetusd.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgetusdaddr.c"
+"D:\projects\ras2vec\sources\dbll_list\Llpurge.c"
+"D:\projects\ras2vec\sources\dbll_list\Llrearrg.c"
+"D:\projects\ras2vec\sources\dbll_list\Llsdata.c"
+"D:\projects\ras2vec\sources\dbll_list\Llsearch.c"
+"D:\projects\ras2vec\sources\dbll_list\Llset.c"
+"D:\projects\ras2vec\sources\dbll_list\llsetdat.c"
+"D:\projects\ras2vec\sources\dbll_list\Llskdel.c"
+"D:\projects\ras2vec\sources\dbll_list\Llstype.c"
+"D:\projects\ras2vec\sources\dbll_list\Llusdadd.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP12D.tmp" 
+Creating temp file "C:\TEMP\RSP12E.tmp" with contents </nologo /out:".\Release\dbll_list.lib" 
+.\Release\Lladd.obj
+.\Release\Llappnd.obj
+.\Release\Llchdata.obj
+.\Release\Llclear.obj
+.\Release\Llcreate.obj
+.\Release\Llcrfill.obj
+.\Release\Lldelete.obj
+.\Release\Lldesf.obj
+.\Release\Llempty.obj
+.\Release\Llgcnt.obj
+.\Release\Llgdata.obj
+.\Release\Llget.obj
+.\Release\Llgetusd.obj
+.\Release\Llgetusdaddr.obj
+.\Release\Llpurge.obj
+.\Release\Llrearrg.obj
+.\Release\Llsdata.obj
+.\Release\Llsearch.obj
+.\Release\Llset.obj
+.\Release\llsetdat.obj
+.\Release\Llskdel.obj
+.\Release\Llstype.obj
+.\Release\Llusdadd.obj>
+Creating command line "link.exe -lib @C:\TEMP\RSP12E.tmp" 
+Compiling...
+Lladd.c
+Llappnd.c
+Llchdata.c
+Llclear.c
+Llcreate.c
+Llcrfill.c
+Lldelete.c
+Lldesf.c
+Llempty.c
+Llgcnt.c
+Llgdata.c
+Llget.c
+Llgetusd.c
+Llgetusdaddr.c
+Llpurge.c
+Llrearrg.c
+Llsdata.c
+Llsearch.c
+Llset.c
+llsetdat.c
+Llskdel.c
+Llstype.c
+Llusdadd.c
+Creating library...
+
+
+
+dbll_list.lib - 0 error(s), 0 warning(s)

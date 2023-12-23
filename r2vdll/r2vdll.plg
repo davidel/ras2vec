@@ -1,0 +1,124 @@
+--------------------Configuration: r2vdll - Win32 Release--------------------
+Begining build with project "D:\projects\ras2vec\r2vdll\r2vdll.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /Zp1 /MD /W3 /GX /O2 /I "D:\projects\ras2vec\sources\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "DLL_LIB" /Fp".\Release/r2vdll.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "NDEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x410 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o".\Release/r2vdll.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /profile /machine:I386 /def:"..\sources\dll_files\r2vdll.def" /out:".\Release/r2vdll.dll" /implib:".\Release/r2vdll.lib" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\TEMP\RSP1A1.tmp" with contents </nologo /Zp1 /MD /W3 /GX /O2 /I "D:\projects\ras2vec\sources\include" /D "NDEBUG" /D "WIN32" /D "_WINDOWS" /D "DLL_LIB" /Fp".\Release/r2vdll.pch" /YX /Fo".\Release/" /Fd".\Release/" /FD /c 
+"D:\projects\ras2vec\sources\ras2vec\bmputil.c"
+"D:\projects\ras2vec\sources\dll_files\dll_main.c"
+"D:\projects\ras2vec\sources\ras2vec\filescan.c"
+"D:\projects\ras2vec\sources\ras2vec\flushpoly.c"
+"D:\projects\ras2vec\sources\ras2vec\himage.c"
+"D:\projects\ras2vec\sources\dbll_list\Lladd.c"
+"D:\projects\ras2vec\sources\dbll_list\Llappnd.c"
+"D:\projects\ras2vec\sources\dbll_list\Llchdata.c"
+"D:\projects\ras2vec\sources\dbll_list\Llclear.c"
+"D:\projects\ras2vec\sources\dbll_list\Llcreate.c"
+"D:\projects\ras2vec\sources\dbll_list\Llcrfill.c"
+"D:\projects\ras2vec\sources\dbll_list\Lldelete.c"
+"D:\projects\ras2vec\sources\dbll_list\Lldesf.c"
+"D:\projects\ras2vec\sources\dbll_list\Llempty.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgcnt.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgdata.c"
+"D:\projects\ras2vec\sources\dbll_list\Llget.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgetusd.c"
+"D:\projects\ras2vec\sources\dbll_list\Llgetusdaddr.c"
+"D:\projects\ras2vec\sources\dbll_list\Llpurge.c"
+"D:\projects\ras2vec\sources\dbll_list\Llrearrg.c"
+"D:\projects\ras2vec\sources\dbll_list\Llsdata.c"
+"D:\projects\ras2vec\sources\dbll_list\Llsearch.c"
+"D:\projects\ras2vec\sources\dbll_list\Llset.c"
+"D:\projects\ras2vec\sources\dbll_list\llsetdat.c"
+"D:\projects\ras2vec\sources\dbll_list\Llskdel.c"
+"D:\projects\ras2vec\sources\dbll_list\Llstype.c"
+"D:\projects\ras2vec\sources\dbll_list\Llusdadd.c"
+"D:\projects\ras2vec\sources\ras2vec\log.c"
+"D:\projects\ras2vec\sources\ras2vec\thinner.c"
+"D:\projects\ras2vec\sources\ras2vec\tree.c"
+"D:\projects\ras2vec\sources\ras2vec\util.c"
+"D:\projects\ras2vec\sources\ras2vec\vectorize.c"
+>
+Creating command line "cl.exe @C:\TEMP\RSP1A1.tmp" 
+Creating temp file "C:\TEMP\RSP1A2.tmp" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /profile /machine:I386 /def:"..\sources\dll_files\r2vdll.def" /out:".\Release/r2vdll.dll" /implib:".\Release/r2vdll.lib" 
+.\Release\bmputil.obj
+.\Release\dll_main.obj
+.\Release\filescan.obj
+.\Release\flushpoly.obj
+.\Release\himage.obj
+.\Release\Lladd.obj
+.\Release\Llappnd.obj
+.\Release\Llchdata.obj
+.\Release\Llclear.obj
+.\Release\Llcreate.obj
+.\Release\Llcrfill.obj
+.\Release\Lldelete.obj
+.\Release\Lldesf.obj
+.\Release\Llempty.obj
+.\Release\Llgcnt.obj
+.\Release\Llgdata.obj
+.\Release\Llget.obj
+.\Release\Llgetusd.obj
+.\Release\Llgetusdaddr.obj
+.\Release\Llpurge.obj
+.\Release\Llrearrg.obj
+.\Release\Llsdata.obj
+.\Release\Llsearch.obj
+.\Release\Llset.obj
+.\Release\llsetdat.obj
+.\Release\Llskdel.obj
+.\Release\Llstype.obj
+.\Release\Llusdadd.obj
+.\Release\log.obj
+.\Release\thinner.obj
+.\Release\tree.obj
+.\Release\util.obj
+.\Release\vectorize.obj>
+Creating command line "link.exe @C:\TEMP\RSP1A2.tmp" 
+Compiling...
+bmputil.c
+dll_main.c
+filescan.c
+flushpoly.c
+himage.c
+Lladd.c
+Llappnd.c
+Llchdata.c
+Llclear.c
+Llcreate.c
+Llcrfill.c
+Lldelete.c
+Lldesf.c
+Llempty.c
+Llgcnt.c
+Llgdata.c
+Llget.c
+Llgetusd.c
+Llgetusdaddr.c
+Llpurge.c
+Llrearrg.c
+Llsdata.c
+Llsearch.c
+Llset.c
+llsetdat.c
+Llskdel.c
+Llstype.c
+Llusdadd.c
+log.c
+thinner.c
+tree.c
+util.c
+vectorize.c
+Linking...
+   Creating library .\Release/r2vdll.lib and object .\Release/r2vdll.exp
+
+
+
+r2vdll.dll - 0 error(s), 0 warning(s)
